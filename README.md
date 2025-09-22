@@ -1,2 +1,1 @@
-# izatou.github.io
-My Git CV
+# faris-atoil-haq.github.io
