@@ -11,9 +11,12 @@
             padding: 20px;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.8;
         }
         h1, h2, h3 {
             color: #0056b3;
+            margin-top: 25px;
+            margin-bottom: 15px;
         }
         .container {
             max-width: 800px;
@@ -34,25 +37,44 @@
             margin-bottom: 5px;
         }
         .project p {
-            margin: 0;
+            margin: 8px 0;
         }
         .skills {
             list-style-type: none;
             padding: 0;
         }
         .skills li {
-            margin-bottom: 5px;
+            margin-bottom: 8px;
+        }
+        .profile-image {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
         }
         .github-activity {
             margin-top: 20px;
             font-size: small;
             color: #777;
         }
+        
+        /* Additional margin styles for better line spacing */
+        p {
+            margin: 10px 0;
+        }
+        
+        ul, ol {
+            margin: 10px 0;
+        }
+        
+        ul li, ol li {
+            margin: 6px 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <section class="section">
+        <section class="section" style="text-align: center;">
+            <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-image">
             <h1>Faris Atoil Haq</h1>
             <p>Creative and Skilled Engineer</p>
             <p>Surakarta | faris.atoil.haq@gmail.com | <a href="https://faris-atoil-haq.github.io/">https://faris-atoil-haq.github.io/</a></p>
@@ -80,18 +102,20 @@
                 <p>Jan 2020 - May 2021</p>
                 <p>Worked as an employee in Malang to develop projects from clients in full-time work.</p>
             </div>
+
+            <h2>Web Projects</h2>
             <div class="project">
-                <h3>Freelancer - IoT project - Water Level System</h3>
+                <h3>IoT project - Water Level System</h3>
                 <p>June 2023 - July 2023</p>
                 <p>Developed an early warning system for flood prevention using PHP and Laravel.</p>
             </div>
             <div class="project">
-                <h3>Freelancer - Develop of Chili Forecasting</h3>
+                <h3>Develop of Chili Forecasting</h3>
                 <p>March 2021 - April 2021</p>
                 <p>Developed a chili price forecasting system using Python and AI, then deployed it on the web using the Flask framework.</p>
             </div>
              <div class="project">
-                <h3>Freelancer - Develop of Smart ICU Project</h3>
+                <h3>Develop of Smart ICU Project</h3>
                 <p>January 2021 - February 2021</p>
                 <p>Developed a Smart ICU system to track patient disease records on the web using Flask.</p>
             </div>
@@ -99,13 +123,15 @@
 
         <section class="section">
             <h2>Education</h2>
-            <p><strong>Master of Informatics Engineering, ITS</strong> (Aug 2023) - Computer Science</p>
-            <p><strong>Bachelor of Computer Engineering, PENS</strong> (Sept 2020) - Computer Engineer</p>
+                <ul>
+                    <li>Master of Informatics Engineering, Institut Teknologi Sepuluh Nopember (ITS) - (2020 - 2023)</li>
+                    <li>Bachelor of Computer Engineering, Politeknik Elektronika Negeri Surabaya (PENS) - (2016 - 2020) </li>
+                </ul>
         </section>
 
         <section class="section">
             <h2>Skills</h2>
-            <ul class="skills">
+            <ul>
                 <li>Strong problem-solver</li>
                 <li>Enjoys tackling complex technical challenges</li>
                 <li>Quick learner</li>
@@ -116,13 +142,15 @@
 
         <section class="section">
             <h2>Languages</h2>
-            <p>English: Good</p>
-            <p>Indonesia: Native</p>
+            <ul>
+                <li>English: Good</li>
+                <li>Indonesia: Native</li>
+            </ul>
         </section>
 
         <section class="section">
             <h2>Programming Languages</h2>
-            <ul class="skills">
+            <ul>
                 <li>Python</li>
                 <li>PHP</li>
                 <li>C</li>
@@ -130,18 +158,6 @@
                 <li>C#</li>
                 <li>Laravel</li>
                 <li>Flask</li>
-            </ul>
-        </section>
-
-         <section class="section github-activity">
-            <h2>GitHub Activity</h2>
-            <p>Top repositories:</p>
-            <ul>
-                <li><a href="https://github.com/sankaHQ/sanka">sankaHQ/sanka</a></li>
-                <li><a href="https://github.com/faris-atoil-haq/simpeg-alpha">faris-atoil-haq/simpeg-alpha</a></li>
-                <li><a href="https://github.com/KGroup-HQ/refleksi-j">KGroup-HQ/refleksi-j</a></li>
-                <li><a href="https://github.com/faris-atoil-haq/faris-atoil-haq.github.io">faris-atoil-haq/faris-atoil-haq.github.io</a></li>
-                <li><a href="https://github.com/faris-atoil-haq/Ifinger_TrioGHC">faris-atoil-haq/Ifinger_TrioGHC</a></li>
             </ul>
         </section>
     </div>
