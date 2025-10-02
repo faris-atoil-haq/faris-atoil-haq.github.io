@@ -1,12 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "flowbite/src/themes/default";
-@source "../../../node_modules/flowbite";
-@plugin "flowbite/plugin";
+
 
 @import "tailwindcss";
-/* @config "../../tailwind.config.js"; */
+@import "flowbite/src/themes/default";
+@source "../../../node_modules/flowbite";
+@source "../../../node_modules/flowbite-datepicker";
+@plugin "flowbite/plugin";
+
 @theme {
     --color-primary-50: #ecfdf5;
     --color-primary-100: #d1fae5;
